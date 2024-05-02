@@ -1,0 +1,33 @@
+.contact {
+  background: rgba(30, 30, 32, 0.5);
+}
+.contact-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 124px 20px;
+  align-items: center;
+  max-width: 1200px;
+  margin-inline: auto;
+}
+.contact-title {
+  font-family: var(--sf);
+  font-weight: 400;
+  font-size: 60px;
+  color: #fff;
+
+  max-width: 826px;
+}
+.contact-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: #5454d4;
+  border-radius: 3px;
+
+  font-family: var(--ff);
+  font-weight: 700;
+  font-size: 13px;
+  text-align: center;
+  color: #fff;
+}

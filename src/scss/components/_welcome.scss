@@ -1,0 +1,38 @@
+.welcome-section {
+  display: flex;
+  gap: 32px;
+  margin-inline: auto;
+  justify-content: center;
+}
+.welcome-section-left {
+  max-width: 582px;
+  margin-top: 80px;
+  p {
+    max-width: 536px;
+    font-family: var(--ff);
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 186%;
+    letter-spacing: -0.03em;
+    color: rgba(255, 255, 255, 0.7);
+  }
+  button {
+    background: #5454d4;
+    display: flex;
+    padding: 16px 27px;
+
+    font-weight: 700;
+    font-size: 13px;
+    color: #fff;
+    border-radius: 3px;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.welcome-title {
+  font-family: var(--sf);
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 105%;
+  color: #fff;
+}
