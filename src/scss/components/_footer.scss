@@ -1,3 +1,27 @@
 .footer {
-	padding: 20px;
+  padding: 57px 20px 108px 20px;
+}
+.footer-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer__ul {
+  display: flex;
+  gap: 40px;
+
+  li {
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.7);
+  }
+}
+.footer-rights {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 237%;
+  letter-spacing: -0.03em;
+  text-align: right;
+  color: rgba(255, 255, 255, 0.7);
 }

@@ -1,10 +1,11 @@
 .contact {
   background: rgba(30, 30, 32, 0.5);
+  margin-top: 150px;
 }
 .contact-container {
   display: flex;
   justify-content: space-between;
-  padding: 124px 20px;
+  padding: 187px 20px;
   align-items: center;
   max-width: 1200px;
   margin-inline: auto;
@@ -30,4 +31,5 @@
   font-size: 13px;
   text-align: center;
   color: #fff;
+  padding: 16px 49px;
 }
