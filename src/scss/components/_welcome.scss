@@ -5,10 +5,20 @@
   justify-content: center;
 
   margin-bottom: 151px;
+
+  @include tablet {
+    flex-direction: column;
+    margin-inline: auto;
+    align-items: center;
+  }
 }
 .welcome-section-left {
-  max-width: 582px;
+  max-width: 50%;
   margin-top: 80px;
+  @include tablet {
+    max-width: 100%;
+  }
+
   p {
     max-width: 536px;
     font-family: var(--ff);
@@ -19,6 +29,10 @@
     color: rgba(255, 255, 255, 0.7);
 
     margin-bottom: 50px;
+
+    @include tablet {
+      max-width: 100%;
+    }
   }
   button {
     background: #5454d4;

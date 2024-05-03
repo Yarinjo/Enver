@@ -9,6 +9,10 @@
   align-items: center;
   max-width: 1200px;
   margin-inline: auto;
+
+  @include tablet {
+    display: block;
+  }
 }
 .contact-title {
   font-family: var(--sf);
@@ -32,4 +36,8 @@
   text-align: center;
   color: #fff;
   padding: 16px 49px;
+
+  @include tablet {
+    margin-top: 50px;
+  }
 }
